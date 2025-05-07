@@ -45,6 +45,9 @@ public class JSE {
 		
 		//3. scrolling till the end of the page
 		js.executeScript("window.scrollBy(0, document.body.scrollHeight)");
+
+		//4. scrolling back to start of page
+		js.executeScript("window.scrollBy(0, -document.body.scrollHeight)");
 //		driver.quit();
 	}
 
