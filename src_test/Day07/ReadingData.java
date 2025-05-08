@@ -22,7 +22,7 @@ public class ReadingData {
 			int totalRows = sheet.getLastRowNum();
 			int totalCells = sheet.getRow(1).getLastCellNum();
 			
-			System.out.println("Total Number of Rows: "+ totalRows); //counting from 0
+			System.out.println("Total Number of Rows: "+ totalRows); //counting from 0 
 			System.out.println("Total Number of cells in each Row: "+totalCells);// counting from 1
 			
 			for(int r = 0; r<=totalRows; r++) {
